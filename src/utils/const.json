@@ -1,0 +1,7 @@
+{
+  "questions": {
+    "difficulty": ["easy", "medium", "hard"],
+    "types": ["multy", "one"],
+    "apiUrl": "https://opentdb.com/api.php?" 
+  }
+}
