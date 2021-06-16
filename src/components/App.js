@@ -1,6 +1,6 @@
 import React from "react";
 import { hot } from 'react-hot-loader/root';
-import { Switch, Route, withRouter } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import Home from '../pages/Home'
 import Test from '../pages/Test'
 

@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <HomeWrapper>
       <h1>Пройдите тестирование!</h1>
-      <Link to="/test"><button type="button" className="btn btn-success btn-lg">Начать тест</button></Link>
+      <Link to="/test"><button type="button" className="btn btn-primary btn-lg">Начать тест</button></Link>
     </HomeWrapper>
   );
 }
