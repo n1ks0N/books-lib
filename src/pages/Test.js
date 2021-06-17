@@ -9,7 +9,7 @@ const FormQ = styled.form`
 	@media (max-width: 800px) {
 		width: 100%;
 	}
-	min-height: 226px;
+	min-height: 266px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -97,6 +97,30 @@ const Test = () => {
 					{Object.keys(qu.query).length > 0 && (
 						<FormQ onSubmit={handleSubmit}>
 							<h2 dangerouslySetInnerHTML={{ __html: qu.query.question }} />
+							<p>
+								{qu.query.difficulty === 'easy' ? (
+									<>
+										<span className="badge bg-success" title="Сложность">
+											{qu.query.difficulty}
+										</span>{' '}
+										1 балл
+									</>
+								) : qu.query.difficulty === 'medium' ? (
+									<>
+										<span className="badge bg-warning" title="Сложность">
+											{qu.query.difficulty}
+										</span>{' '}
+										2 балла
+									</>
+								) : (
+									<>
+										<span className="badge bg-danger" title="Сложность">
+											{qu.query.difficulty}
+										</span>{' '}
+										3 балла
+									</>
+								)}
+							</p>
 							<div>
 								{qu.query.answers.map(
 									(

@@ -2,9 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
+const HomeWrapper = styled.div`
+	text-align: center;
+`;
+
 const Home = () => {
 	return (
-		<div>
+		<HomeWrapper>
 			<h1>Пройдите тестирование на английском языке</h1>
 			<h3>Каждый раз генерируются новые вопросы</h3>
 			<Link to="/test">
@@ -12,7 +16,7 @@ const Home = () => {
 					Начать тест
 				</button>
 			</Link>
-		</div>
+		</HomeWrapper>
 	);
 };
 

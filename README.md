@@ -1,8 +1,8 @@
-# empty-project
+# Test project
 
-Empty project.
+Test project for DomClick
 
-## Building and running on localhost
+## Building and running on localhost:8080
 
 First install dependencies:
 
@@ -10,22 +10,24 @@ First install dependencies:
 npm install
 ```
 
+To start a project in your browser
+
+```sh
+npm run start
+```
+
 To create a production build:
 
 ```sh
-npm run build-prod
+npm run build
 ```
 
 To create a development build:
 
 ```sh
-npm run build-dev
+npm run dev
 ```
 
 ## Running
 
 Open the file `dist/index.html` in your browser
-
-## Credits
-
-Made with [createapp.dev](https://createapp.dev/)

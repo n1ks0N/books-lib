@@ -1,7 +1,5 @@
 {
   "questions": {
-    "difficulty": ["easy", "medium", "hard"],
-    "types": ["multi", "bool"],
     "api_url": "https://opentdb.com/api.php?" 
   },
   "countQuestions": "6"
