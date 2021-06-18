@@ -93,7 +93,7 @@ const Test = () => {
 				</div>
 			) : (
 				<div>
-					<h4>Вопрос {qu.count}/6</h4>
+					<h4>Вопрос {qu.count}/{countQuestions}</h4>
 					{Object.keys(qu.query).length > 0 && (
 						<FormQ onSubmit={handleSubmit}>
 							<h2 dangerouslySetInnerHTML={{ __html: qu.query.question }} />
