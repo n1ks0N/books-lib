@@ -1,6 +1,6 @@
-# Test project
+# Test assignments
 
-Test project for DomClick
+Questionnaire created on ReactJS + Redux
 
 ## Building and running on localhost:8080
 
